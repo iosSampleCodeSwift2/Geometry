@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		595249C71D99FF8B00CFA76A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595249C61D99FF8B00CFA76A /* main.swift */; };
+		595249CE1D99FFBC00CFA76A /* GeometryCalulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595249CD1D99FFBC00CFA76A /* GeometryCalulator.swift */; };
+		595249D01D9A01E700CFA76A /* GeometryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595249CF1D9A01E700CFA76A /* GeometryType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		595249C31D99FF8B00CFA76A /* Geometry */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Geometry; sourceTree = BUILT_PRODUCTS_DIR; };
 		595249C61D99FF8B00CFA76A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		595249CD1D99FFBC00CFA76A /* GeometryCalulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryCalulator.swift; sourceTree = "<group>"; };
+		595249CF1D9A01E700CFA76A /* GeometryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				595249C61D99FF8B00CFA76A /* main.swift */,
+				595249CD1D99FFBC00CFA76A /* GeometryCalulator.swift */,
+				595249CF1D9A01E700CFA76A /* GeometryType.swift */,
 			);
 			path = Geometry;
 			sourceTree = "<group>";
@@ -120,6 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				595249C71D99FF8B00CFA76A /* main.swift in Sources */,
+				595249CE1D99FFBC00CFA76A /* GeometryCalulator.swift in Sources */,
+				595249D01D9A01E700CFA76A /* GeometryType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
